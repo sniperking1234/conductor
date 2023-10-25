@@ -1,0 +1,25 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "build" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Docker login
+      uses: docker/login-action@v1
+      with:
+        username: sniperking1234
+        password: ${{ secrets.DOCKERHUB_PASSWORD }} 
+    - name: Build the Docker image
+      run: docker build . --file docker/server/Dockerfile --tag sniperking1234/conducter-test:$(date)
+    - name: Push Docker image
+      run: docker push sniperking1234/conducter-test:$(date)
