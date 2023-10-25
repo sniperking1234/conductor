@@ -20,6 +20,6 @@ jobs:
         username: sniperking1234
         password: ${{ secrets.DOCKERHUB_PASSWORD }} 
     - name: Build the Docker image
-      run: docker build . --file docker/server/Dockerfile --tag sniperking1234/conducter-test:$(date)
+      run: docker build . --file docker/server/Dockerfile --tag sniperking1234/conducter-test:latest
     - name: Push Docker image
-      run: docker push sniperking1234/conducter-test:$(date)
+      run: docker push sniperking1234/conducter-test:latest
