@@ -14,7 +14,7 @@ package com.netflix.conductor.es6.dao.query.parser;
 
 import java.io.InputStream;
 
-import org.elasticsearch.index.query.QueryBuilder;
+import org.opensearch.index.query.QueryBuilder;
 
 import com.netflix.conductor.es6.dao.query.parser.internal.AbstractNode;
 import com.netflix.conductor.es6.dao.query.parser.internal.ParserException;

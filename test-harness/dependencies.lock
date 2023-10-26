@@ -117,11 +117,11 @@
         "org.codehaus.groovy:groovy-all": {
             "locked": "2.5.22"
         },
-        "org.elasticsearch.client:elasticsearch-rest-client": {
-            "locked": "6.8.12"
+        "org.opensearch.client:opensearch-rest-client": {
+            "locked": "2.11.0"
         },
-        "org.elasticsearch.client:elasticsearch-rest-high-level-client": {
-            "locked": "6.8.12"
+        "org.opensearch.client:opensearch-rest-high-level-client": {
+            "locked": "2.11.0"
         },
         "org.glassfish.jersey.core:jersey-common": {
             "locked": "2.22.2"
@@ -642,23 +642,23 @@
         "org.codehaus.groovy:groovy-all": {
             "locked": "2.5.22"
         },
-        "org.elasticsearch.client:elasticsearch-rest-client": {
+        "org.opensearch.client:opensearch-rest-client": {
             "firstLevelTransitive": [
                 "com.netflix.conductor:conductor-es6-persistence"
             ],
-            "locked": "6.8.12"
+            "locked": "2.11.0"
         },
-        "org.elasticsearch.client:elasticsearch-rest-high-level-client": {
+        "org.opensearch.client:opensearch-rest-high-level-client": {
             "firstLevelTransitive": [
                 "com.netflix.conductor:conductor-es6-persistence"
             ],
-            "locked": "6.8.12"
+            "locked": "2.11.0"
         },
-        "org.elasticsearch.client:transport": {
+        "org.opensearch.client:transport": {
             "firstLevelTransitive": [
                 "com.netflix.conductor:conductor-es6-persistence"
             ],
-            "locked": "6.8.12"
+            "locked": "1.3.13"
         },
         "org.glassfish.jaxb:jaxb-runtime": {
             "firstLevelTransitive": [

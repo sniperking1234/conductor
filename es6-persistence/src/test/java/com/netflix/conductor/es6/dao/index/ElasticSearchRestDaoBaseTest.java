@@ -18,9 +18,9 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 
 import org.apache.http.HttpHost;
-import org.elasticsearch.client.Response;
-import org.elasticsearch.client.RestClient;
-import org.elasticsearch.client.RestClientBuilder;
+import org.opensearch.client.Response;
+import org.opensearch.client.RestClient;
+import org.opensearch.client.RestClientBuilder;
 import org.junit.After;
 import org.junit.Before;
 import org.springframework.retry.support.RetryTemplate;

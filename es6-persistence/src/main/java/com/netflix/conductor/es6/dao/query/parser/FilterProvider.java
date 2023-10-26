@@ -12,7 +12,7 @@
  */
 package com.netflix.conductor.es6.dao.query.parser;
 
-import org.elasticsearch.index.query.QueryBuilder;
+import org.opensearch.index.query.QueryBuilder;
 
 public interface FilterProvider {
 

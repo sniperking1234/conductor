@@ -17,9 +17,9 @@ import java.util.*;
 import java.util.concurrent.ExecutionException;
 import java.util.function.Supplier;
 
-import org.elasticsearch.action.admin.indices.exists.indices.IndicesExistsRequest;
-import org.elasticsearch.action.admin.indices.mapping.get.GetMappingsRequest;
-import org.elasticsearch.action.admin.indices.mapping.get.GetMappingsResponse;
+import org.opensearch.action.admin.indices.exists.indices.IndicesExistsRequest;
+import org.opensearch.action.admin.indices.mapping.get.GetMappingsRequest;
+import org.opensearch.action.admin.indices.mapping.get.GetMappingsResponse;
 import org.junit.Test;
 
 import com.netflix.conductor.common.metadata.events.EventExecution;

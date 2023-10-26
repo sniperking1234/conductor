@@ -14,9 +14,9 @@ package com.netflix.conductor.es6.dao.index;
 
 import java.util.Objects;
 
-import org.elasticsearch.action.bulk.BulkRequest;
-import org.elasticsearch.action.index.IndexRequest;
-import org.elasticsearch.action.update.UpdateRequest;
+import org.opensearch.action.bulk.BulkRequest;
+import org.opensearch.action.index.IndexRequest;
+import org.opensearch.action.update.UpdateRequest;
 import org.springframework.lang.NonNull;
 
 /** Thread-safe wrapper for {@link BulkRequest}. */

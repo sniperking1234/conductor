@@ -16,8 +16,8 @@ import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 
-import org.elasticsearch.index.query.QueryBuilder;
-import org.elasticsearch.index.query.QueryBuilders;
+import org.opensearch.index.query.QueryBuilder;
+import org.opensearch.index.query.QueryBuilders;
 
 import com.netflix.conductor.es6.dao.query.parser.internal.AbstractNode;
 import com.netflix.conductor.es6.dao.query.parser.internal.BooleanOp;
