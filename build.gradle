@@ -176,3 +176,4 @@ configure(allprojects - project(':conductor-grpc')) {
         }
     }
 }
+runtimeOnly group: 'com.netflix.conductor', name: 'conductor-postgres-persistence', version: '3.14.0'
