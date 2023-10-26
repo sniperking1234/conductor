@@ -65,3 +65,5 @@ bootJar {
 springBoot {
     buildInfo()
 }
+
+runtimeOnly group: 'com.netflix.conductor', name: 'conductor-postgres-persistence', version: '3.14.0'
